@@ -1,0 +1,18 @@
+body {
+  background-image: url(http://www.allvectors.com/wp-content/uploads/2014/08/white-pattern.jpg);
+}
+h1 {
+  font-family: arial;
+  text-align: center;
+}
+
+ul {
+  font-family: arial;
+  text-align: center;
+  list-style-type: circle;
+}
+
+.songs{
+  font-family: arial
+  text-align: center;
+}

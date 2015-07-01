@@ -1,0 +1,27 @@
+div {
+  width: 900px;
+  margin: 0px auto;
+}
+
+h1 {
+  text-align: left;
+  margin-left: 50px;
+  font-family: arial;
+}
+
+#left {
+  margin-left: 50px;
+  width: 350px;
+  float: left;
+}
+
+#right {
+  margin-left: 50px;
+  width: 350px;
+  float: left;
+}
+
+.block {
+  font-size: 8px;
+  font-family: arial;
+}

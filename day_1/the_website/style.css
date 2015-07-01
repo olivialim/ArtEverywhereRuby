@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+
+}
+h1 {
+  color:white;
+  background-color:black;
+  text-align: center;
+}
+h3 {
+  color:white;
+}
+ul {
+  color:white;
+}
+
+.name{
+  color: white;
+  text-align:center;
+}

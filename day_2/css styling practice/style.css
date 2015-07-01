@@ -1,0 +1,73 @@
+h1 {
+  padding: 10px;
+  border: 10px double;
+  background-color: white;
+  text-align: center;
+  width: auto;
+  margin: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+div {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.left {
+  margin left: 300px;
+  margin right: 300px;
+  padding: 10px;
+  float: left;
+  width: 200px;
+  border: 5px solid blue;
+}
+
+.right {
+  margin left: 300px;
+  margin right: 300px;
+  padding: 10px;
+  float: right;
+  width: 200px;
+  border: 5px solid blue;
+}
+
+.first {
+  float:left;
+  height: 150px;
+  width: 150px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.second {
+  float: right;
+  height: 150px;
+  width: 150px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.third {
+  float:left;
+  height: 150px;
+  width: 150px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.fourth {
+  float:right;
+  height: 150px;
+  width: 150px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.one {
+  float:left;  
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+  padding-right: 5px
+}

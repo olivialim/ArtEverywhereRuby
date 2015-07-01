@@ -1,0 +1,19 @@
+body {
+  background-image: url(https://41.media.tumblr.com/0de6d23536fa344f10d8cb4cbb8aa3bd/tumblr_nqq4vssYKj1sw2k2bo1_1280.jpg);
+  color: black;
+  font-family:arial;
+}
+
+h1 {
+  font-family: arial;
+}
+
+ul {
+  font-family: arial;
+  list-style-type: circle;
+}
+
+.songs{
+  font-family: arial
+  text-align: center;
+}

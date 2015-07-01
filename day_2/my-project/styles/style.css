@@ -1,0 +1,84 @@
+body {
+  background-color: lavender;
+}
+
+h1 {
+  padding: 10px;
+  border: 10px double;
+  background-color: white;
+  text-align: center;
+  width: auto;
+  margin: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+#header {
+ position: static;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px auto;
+    padding: 40px;
+    border: 5px dotted blue;
+    width: 50px;
+}
+
+div {
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+}
+
+.sidebar {
+  padding: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 5px solid navy;
+  width: 300px;
+  float: left;
+  text-align: center;
+}
+
+.top {
+  margin: 10px auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 15px;
+  border: 5px solid navy;
+  width: 500px;
+  float: right;
+}
+
+.bottom {
+  margin: 10px auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 15px;
+  border: 5px solid navy;
+  width: 500px;
+  float: right;
+}
+
+.first {
+  float:left;
+  height: 150px;
+  width: 150px;
+  padding: 30px auto;
+  margin: 40px;
+  position: static;
+}
+
+.second {
+  float:left;
+  height: 150px;
+  width: 150px;
+  margin: 40px;
+}
+
+.one {
+  float:left;  
+  height: 150px;
+  width: 150px;
+}
