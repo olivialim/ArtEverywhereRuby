@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h3 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.row1 {
+  float: left;
+  margin: 10px;
+}
+
+div {
+  margin: 0px auto;
+  width: 1000px;
+}
+
+.row2 {
+  float: left;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+#view {
+  text-align: center;
+  font-family: sans-serif;
+  margin: 15px;
+}

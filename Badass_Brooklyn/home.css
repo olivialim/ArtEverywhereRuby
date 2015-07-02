@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  font-family: sans-serif;
+}
+
+#wrapper {
+  margin: 0px auto;
+  width: 900px;
+}
+
+nav {
+  text-align: center;
+  margin: 10px;
+}
+
+ul {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0px;
+  background-color: 
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+  font-size: 30px;
+  margin:10px;
+}
+
+img {
+  width: 400px;
+  height: 187px;
+  bac
+}
+
+a:link, a:visited {
+  color: white;
+  text-decoration: none;
+}
