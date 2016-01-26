@@ -1,0 +1,405 @@
+@font-face {
+    font-family: rotate;
+    src: url(NType_Rotate.otf);
+}
+
+@font-face {
+    font-family: savu;
+    src: url(Savu.otf);
+}
+
+@font-face {
+    font-family: print;
+    src: url(PrintClearly_TT.ttf);
+}
+
+.jumbotron{
+  background-image: url(18thst.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: savu;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 100vh;
+}
+
+#logo{
+  background-color: black;
+  width: auto;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  /*display: none;*/
+}
+
+html, body{
+  margin: 0 auto;
+  font-family: print;
+  font-size: 15px;
+  padding: 0px;
+}
+
+h1 {
+  text-align: center;
+  /*background-color: black;*/
+  padding: 10px;
+  font-size: 50px;
+  font-family: savu;
+}
+
+.wrapper {
+  margin: 0 auto;
+  clear: both;
+}
+
+.wrapper1 {
+  margin: 0 auto;
+  width: 520px;
+}
+
+.wrapper1 img {
+  margin: 10px;
+}
+
+.container figure img {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a.visited {
+  color: black;
+  text-decoration: none;
+}
+
+a.hover {
+  background-color: black;
+  text-decoration: none;
+}
+
+ul {
+  text-align: center;
+  padding: 0px;
+  margin: 10px;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  letter-spacing: 3px;
+}
+
+nav {
+  background-color: black;
+  display: inline-block;
+}
+
+.form-group {
+  text-align: left;
+  font-size: 18px;
+}
+
+footer {
+  margin-left: 15px
+}
+
+.people {
+  margin: 0 auto;
+  width: 900px;
+  text-align: center;
+  font-size: 20px;
+}
+
+form {
+  text-align: center;
+}
+
+#title {
+  font-size: 20px;
+}
+
+.signup {
+  font-size: 20px;
+}
+
+.leftbanner {
+  float: left;
+  text-align: center;
+  height: auto;
+  font-family: savu;
+  margin: 15px 50px 15px 150px;
+}
+
+.container .mypics {
+  padding-left: 50px;
+}
+
+@media (min-width: 1200px){
+.container {
+  width: 900px;
+}}
+
+.container {
+  float: left;
+}
+
+.hoodform {
+  font-size: 20px;
+}
+
+.galleryimg {
+  font-size: 20px;
+}
+
+figure figcaption {
+  text-align: center;
+}
+
+
+/*Gallery*/
+
+.thumb1 { 
+background: url(blah.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+width: 250px;
+height: 250px;
+}
+
+.thumb a {
+display: block;
+width: 250px;
+height: 250px;
+}
+
+/*LIGHTBOX*/
+/*#lightbox {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 500px;
+  margin-left: -250px;
+  background: #fff;
+  z-index: 1001;
+  display: none;
+}
+#lightbox-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  filter: alpha(opacity=75);
+  -moz-opacity: 0.75;
+  -khtml-opacity: 0.75;
+  opacity: 0.75;
+  z-index: 1000;
+  display: none;
+}
+*/
+/*----------------------------------- Navbar*/
+.c-menu {
+  position: fixed;
+  z-index: 200;
+  background-color: black;
+  transition: transform 0.3s;
+}
+
+.c-menu__items {
+  border-top: white 1px solid;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Close button resets.
+ */
+.c-menu__close {
+  color: #fff;
+  background-color: #3184a1;
+  font-size: 14px;
+  border: none;
+  box-shadow: none;
+  border-radius: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+/**
+ * Close button resets.
+ */
+.c-menu__close:focus {
+  outline: none;
+}
+
+/**
+ * Body states.
+ *
+ * When a menu is active, we want to hide the overflows on the body to prevent
+ * awkward document scrolling.
+ */
+body.has-active-menu {
+  overflow: hidden;
+}
+
+/**
+ * Mask component
+ */
+
+.c-mask {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  background-color: #000;
+  opacity: 0;
+  transition: opacity 0.3s, width 0s 0.3s, height 0s 0.3s;
+}
+
+.c-mask.is-active {
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.c-menu--slide-right {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+@media all and (min-width: 320px) {
+  .c-menu--slide-right{
+    width: 225px;
+  }
+}
+
+.c-menu__item {
+  font-size: 25px;
+}
+
+.c-menu--slide-right .c-menu__item:first-child {
+  border-top: none;
+}
+
+.c-menu--slide-right .c-menu__item:last-child{
+  border-bottom: none;
+}
+
+.c-menu--slide-right .c-menu__link{
+  display: block;
+  padding: 12px 24px;
+  color: #fff;
+}
+
+.c-menu--slide-right .c-menu__close{
+  display: block;
+  padding: 12px 24px;
+  width: 100%;
+}
+
+.c-menu--slide-right{
+  top: 0;
+  right: 0;
+  transform: translateX(100%);
+}
+
+@media all and (min-width: 320px) {
+  .c-menu--slide-right{
+    transform: translateX(300px);
+  }
+}
+
+.c-menu--slide-right.is-active{
+  transform: translateX(0);
+}
+
+body.has-active-menu {
+  overflow: hidden;
+}
+
+/**
+ * Close button resets.
+ */
+.c-menu__close {
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  border: none;
+  box-shadow: none;
+  border-radius: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.c-menu__close:focus {
+  outline: none;
+}
+
+.c-mask {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s, width 0s 0.3s, height 0s 0.3s;
+          transition: opacity 0.3s, width 0s 0.3s, height 0s 0.3s;
+}
+
+.c-mask.is-active {
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  -webkit-transition: opacity 0.3s;
+          transition: opacity 0.3s;
+}
+
+/*----------------------------------------------------------------------------- */
+.c-buttons {
+
+}
+
+.c-button {
+  display: inline-block;
+  margin: 4px;
+  padding: 12px 24px;
+  color: #67b5d1;
+  background: none;
+  font-size: 14px;
+  border: none;
+  float: right;
+  box-shadow: none;
+  border-radius: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.c-button:focus {
+  outline: none;
+}
+
+.c-button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}

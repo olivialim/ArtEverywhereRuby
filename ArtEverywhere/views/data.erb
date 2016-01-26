@@ -1,0 +1,18 @@
+  <div class="index">
+  <div class="people">
+    <img src="LSD.gif" height="500px">
+    <h2>Users</h2>
+      <% @users.each do |user| %>
+      <%= user.fname%> <%= user.lname%><br><%= user.username%> <%= user.password%><br><%= user.email%><br><br>
+      <% end %>
+
+    <h2>Places</h2>
+      <% @pics.each do |pic| %>
+      <img src= <%= pic.image_url %> width="200px"><br>
+      <%= pic.user_id%><br>
+      <strong><%= pic.title%>, <%= pic.artist%></strong><br>
+      <%= pic.neighborhood%>, <%= pic.citystate%><br>
+      <%= pic.description%><br><br>
+      <% end %>
+    </div>
+  </div>

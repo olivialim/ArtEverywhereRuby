@@ -1,0 +1,17 @@
+<script src="lightbox.js"></script>
+<link rel="stylesheet" type="text/css" href="lightbox.css">
+
+
+<div class="wrapper1">
+
+<h1><%= @pics.first.neighborhood %></h1>
+
+  <% @pics.each do |pic| %>
+  <a href=<%= pic.image_url %> data-lightbox="example-set"><img src=<%= pic.image_url %> width="500px"></a><br>
+    <center class="galleryimg"><%=pic.artist%>, <%=pic.title%></center> 
+  <% end %>
+
+
+  <center><h3><a href="/gallery">back to gallery</a></h3></center>
+
+</div>
